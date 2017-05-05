@@ -23,3 +23,8 @@ def quadratic(a, b, c):
 # print(quadratic(1, 2, 3)) # 第三种错误
 # print(quadratic(1, 4, 4)) # 一个解
 print(quadratic(1, 5, 4)) # 二个解
+
+a = float(print('请输入二次项系数：'))
+b = float(print('请输入一次项系数：'))
+c = float(print('请输入常数项系数：'))
+print('该二项式的解为：', quadratic(a, b, c))
